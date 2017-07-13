@@ -1,0 +1,19 @@
+* {
+  border: 1px solid black;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#staff {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.person {
+  flex-basis: 20%;
+}
